@@ -9,7 +9,13 @@ This repository shows the steps to transfer a project from GitLab to Github.
     * The name of the repository doesn't need to be the same. You can always keep the same of course.
     * **EXAMPLE**: Created empty new project: https://github.com/garciagenrique/example-transfer-project-from-gitlab
 3. Open a terminal, add the github repository as a remote repo and push things there.
-    * `git clone `
-    * `git remote add github git@github.com:garciagenrique/example-transfer-project-from-gitlab.git`
-    * `git push --mirror github`
-    
+
+Please adapt this snippet with your user and project nam
+
+```bash
+> git clone git@gitlab.in2p3.fr:escape2020/virtual-environment/transfer-to-github-example.git
+> cd transfer-to-github-example
+> git remote add github git@github.com:garciagenrique/example-transfer-project-from-gitlab.git
+> git push --mirror github
+```
+     
